@@ -1,3 +1,2 @@
 ﻿  dz2.cpp
-D:\projects\visual\dz2\dz2\dz2.cpp(10,29): warning C4305: инициализация: усечение из "double" в "float"
   dz2.vcxproj -> D:\projects\visual\dz2\x64\Debug\01_Cone.exe

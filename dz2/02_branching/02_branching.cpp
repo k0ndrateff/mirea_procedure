@@ -15,16 +15,16 @@ int main()
 
     if (abs(x) < 1) {
         w = a * log(abs(x));
+        cout << "w = " << w;
     }
     else {
         if (x * x <= a) {
             w = sqrt(a - x * x);
+            cout << "w = " << w;
         }
         else {
             cout << "Невозможно вычислить корень из отрицательного числа.";
         }
     }
-
-    cout << "w = " << w;
 }
 
