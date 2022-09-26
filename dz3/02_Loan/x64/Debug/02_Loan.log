@@ -1,0 +1,3 @@
+﻿  02_Loan.cpp
+D:\projects\visual\dz3\02_Loan\02_Loan.cpp(9,37): warning C4101: procent: неиспользованная локальная переменная
+  02_Loan.vcxproj -> D:\projects\visual\dz3\x64\Debug\02_Loan.exe
