@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     setlocale(LC_ALL, "russian");
-    double monthly, summ, r, years, procent;
+    double monthly, summ, r, years, m1, k;
 
     cout << "Введите сумму займа: ";
     cin >> summ;
@@ -15,22 +15,13 @@ int main()
     cout << "Введите месячную выплату: ";
     cin >> monthly;
 
-    if (monthly > 0) {
-        for (int procent = 0; procent < 10000; procent++) {
-            r = procent / 100;
-            if (monthly >= (summ * r * pow(1 + r, years)) / (12 * (pow(1 + r, years) - 1))) {
-                cout << "Процент: " << procent;
-                break;
-            }
-        }
-    }
-    else {
-        for (int procent = -1; procent > -10000; procent--) {
-            r = procent / 100;
-            if (monthly <= (summ * r * pow(1 + r, years)) / (12 * (pow(1 + r, years) - 1))) {
-                cout << "Процент: " << procent;
-                break;
-            }
+    for (double i = 1; i < 10000; i += 0.00001) {
+        r = i / 100;
+        m1 = (summ * r * pow(1 + r, years)) / (12 * (pow(1 + r, years) - 1));
+        k = abs(m1 - monthly);
+        if (k < 0.01) {
+            cout << "Процент: " << round(i);
+            break;
         }
     }
 
