@@ -17,9 +17,6 @@ int main()
     else if (N <= 0) {
         N = 1;
     }
-    else {
-        N = N;
-    }
 
     for (int i = 0; i < 10; i++) {
         cout << N + i << "\n";

@@ -13,7 +13,10 @@ int main()
     cout << "Введите x: ";
     cin >> x;
 
-    if (abs(x) < 1) {
+    if (x == 0) {
+        cout << "Неопределенность.";
+    }
+    else if (abs(x) < 1) {
         w = a * log(abs(x));
         cout << "w = " << w;
     }
