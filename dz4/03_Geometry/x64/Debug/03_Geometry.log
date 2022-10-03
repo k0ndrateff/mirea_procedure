@@ -1,0 +1,5 @@
+﻿  03_Geometry.cpp
+D:\projects\visual\dz4\03_Geometry\03_Geometry.cpp(43): warning C4715: triangle: значение возвращается не при всех путях выполнения
+D:\projects\visual\dz4\03_Geometry\03_Geometry.cpp(58): warning C4715: circle: значение возвращается не при всех путях выполнения
+D:\projects\visual\dz4\03_Geometry\03_Geometry.cpp(25): warning C4715: rectangle: значение возвращается не при всех путях выполнения
+  03_Geometry.vcxproj -> D:\projects\visual\dz4\x64\Debug\03_Geometry.exe
