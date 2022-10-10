@@ -23,32 +23,11 @@ int main()
     for (double y = HEIGHT / 2; y >= -(HEIGHT / 2); y -= STEP) {
         row = "";
         for (double x = -(WIDTH / 2); x <= WIDTH / 2; x += STEP) {
-            if (x * y == 0) {
-                row += "+";
-            }
-            else if (x == 0) {
-                if (y == HEIGHT / 2) {
-                    row += "^";
-                }
-                else {
-                    row += "|";
-                }
-            }
-            else if (y == 0) {
-                if (x == WIDTH / 2) {
-                    row += ">";
-                }
-                else {
-                    row += "-";
-                }
+            if (isEqual(x, y, STEP)) {
+                row += "#";
             }
             else {
-                if (isEqual(x, y, STEP)) {
-                    row += "#";
-                }
-                else {
-                    row += " ";
-                }
+                row += " ";
             }
         }
         
