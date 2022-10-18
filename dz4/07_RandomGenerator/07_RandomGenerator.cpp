@@ -2,9 +2,9 @@
 
 using namespace std;
 
-int m = 37;
-int a = 15;
-int c = 64;
+const int m = 37;
+const int a = 15;
+const int c = 64;
 
 int getRandom(int s, int i, int current_i) {
     if (current_i == i) {

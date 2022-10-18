@@ -8,7 +8,7 @@ int main()
     setlocale(LC_ALL, "russian");
     string row;
     
-    for (int i = 0; i < 28; i++) {
+    for (int i = 0; i < 27; i++) {
         row = "";
         if (i % 2 != 0) {
             if (i < 12) {

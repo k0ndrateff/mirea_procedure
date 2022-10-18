@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
     setlocale(LC_ALL, "russian");
+
     
 	const int A[3][4] = {
 		{5, 2, 0, 10},
@@ -28,6 +29,13 @@ int main()
 				C[i][j] += A[i][k] * B[k][j];
 			}
 		}
+	}
+
+	for (int i = 0; i < 3; i++) {
+		for (int j = 0; j < 2; j++) {
+			cout << C[i][j] << " ";
+		}
+		cout << endl;
 	}
 
 	// Кто получил больше и меньше денег
