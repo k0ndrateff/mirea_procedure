@@ -1,4 +1,4 @@
 ﻿  09_ConvertSystems.cpp
-C:\Users\ivc6-10\source\repos\mirea_procedure\dz4\09_ConvertSystems\09_ConvertSystems.cpp(13,44): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\ivc6-10\source\repos\mirea_procedure\dz4\09_ConvertSystems\09_ConvertSystems.cpp(15,45): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
-C:\Users\ivc6-10\source\repos\mirea_procedure\dz4\09_ConvertSystems\09_ConvertSystems.cpp(23): error C4716: convertDecToAny: должна возвращать значение
+D:\vuz\procedure\mirea_procedure\dz4\09_ConvertSystems\09_ConvertSystems.cpp(24,5): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\vuz\procedure\mirea_procedure\dz4\09_ConvertSystems\09_ConvertSystems.cpp(26,25): warning C4244: +=: преобразование "double" в "long", возможна потеря данных
+  09_ConvertSystems.vcxproj -> D:\vuz\procedure\mirea_procedure\dz4\x64\Debug\09_ConvertSystems.exe
