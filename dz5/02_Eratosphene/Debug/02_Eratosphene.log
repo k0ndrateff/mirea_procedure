@@ -1,0 +1,4 @@
+﻿  02_Eratosphene.cpp
+C:\Users\ivc6-10\Documents\GitHub\mirea_procedure\dz5\02_Eratosphene\02_Eratosphene.cpp(6,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ivc6-10\Documents\GitHub\mirea_procedure\dz5\02_Eratosphene\02_Eratosphene.cpp(28,23): warning C4018: <=: несоответствие типов со знаком и без знака
+  02_Eratosphene.vcxproj -> C:\Users\ivc6-10\Documents\GitHub\mirea_procedure\dz5\Debug\02_Eratosphene.exe
