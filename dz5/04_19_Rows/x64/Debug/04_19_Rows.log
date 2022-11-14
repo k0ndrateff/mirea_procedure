@@ -1,0 +1,3 @@
+﻿  04_19_Rows.cpp
+D:\vuz\procedure\mirea_procedure\dz5\04_19_Rows\04_19_Rows.cpp(23,28): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  04_19_Rows.vcxproj -> D:\vuz\procedure\mirea_procedure\dz5\x64\Debug\04_19_Rows.exe

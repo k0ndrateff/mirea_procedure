@@ -40,4 +40,6 @@ int main()
         
         cout << row << endl;
     }
+
+    system("pause");
 }
