@@ -5,29 +5,21 @@
 using namespace std;
 
 // Создание исходного файла
-void createFile(string fileName) {
+void createFile(string fileName, string text) {
 	ofstream file(fileName);
-	file << "Hello World!" << endl;
+	file << text << endl;
 	file.close();
 }
 
-// Чтение исходного файла
-void readFile(string fileName) {
-	ifstream file(fileName);
-	string line;
-	while (getline(file, line)) {
-		cout << line << endl;
-	}
-	file.close();
-}
 
 int main()
 {
     setlocale(LC_ALL, "russian");
+    string text;
 
-    createFile("text.txt");
-	cout << "Исходный файл:" << endl;
-	readFile("text.txt");
+    cout << "Введите строку: ";
+    cin >> text;
+    createFile("text.txt", text);
 	cout << "Обработанный файл:" << endl;
 	
 	// Обработка файла (преобразование в цепочку ASCII-кодов)

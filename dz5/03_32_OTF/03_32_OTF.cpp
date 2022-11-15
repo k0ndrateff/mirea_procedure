@@ -5,19 +5,9 @@
 using namespace std;
 
 // Создание исходного файла
-void createFile(string fileName) {
+void createFile(string fileName, string text) {
 	ofstream file(fileName);
-	file << "Hello World!" << endl;
-	file.close();
-}
-
-// Чтение исходного файла
-void readFile(string fileName) {
-	ifstream file(fileName);
-	string line;
-	while (getline(file, line)) {
-		cout << line << endl;
-	}
+	file << text << endl;
 	file.close();
 }
 
@@ -25,10 +15,11 @@ int main()
 {
 	setlocale(LC_ALL, "russian");
 	const int shift = 3;
+	string text;
 	
-	createFile("text.txt");
-	cout << "Исходный файл:" << endl;
-	readFile("text.txt");
+	cout << "Введите строку: ";
+	cin >> text;
+	createFile("text.txt", text);
 	cout << "Зашифрованный файл:" << endl;
 
 	// Обработка файла (Шифрование сдвигом)

@@ -1,4 +1,5 @@
 ﻿  09_ConvertSystems.cpp
-C:\Users\ivc6-10\Documents\GitHub\mirea_procedure\dz4\09_ConvertSystems\09_ConvertSystems.cpp(27,44): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\ivc6-10\Documents\GitHub\mirea_procedure\dz4\09_ConvertSystems\09_ConvertSystems.cpp(29,45): warning C4244: +=: преобразование "double" в "long", возможна потеря данных
-  09_ConvertSystems.vcxproj -> C:\Users\ivc6-10\Documents\GitHub\mirea_procedure\dz4\x64\Debug\09_ConvertSystems.exe
+C:\Users\ivc6-10\source\repos\mirea_procedure\dz4\09_ConvertSystems\09_ConvertSystems.cpp(27,44): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ivc6-10\source\repos\mirea_procedure\dz4\09_ConvertSystems\09_ConvertSystems.cpp(29,45): warning C4244: +=: преобразование "double" в "long", возможна потеря данных
+  LINK : не найден или не выполнена сборка C:\Users\ivc6-10\source\repos\mirea_procedure\dz4\x64\Debug\09_ConvertSystems.exe при последней инкрементной компоновке; выполняется полная компоновка
+  09_ConvertSystems.vcxproj -> C:\Users\ivc6-10\source\repos\mirea_procedure\dz4\x64\Debug\09_ConvertSystems.exe
