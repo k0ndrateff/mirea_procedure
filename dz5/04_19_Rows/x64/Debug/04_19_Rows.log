@@ -1,3 +1,1 @@
-﻿  04_19_Rows.cpp
-C:\Users\ivc6-10\source\repos\mirea_procedure\dz5\04_19_Rows\04_19_Rows.cpp(23,28): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-  04_19_Rows.vcxproj -> C:\Users\ivc6-10\source\repos\mirea_procedure\dz5\x64\Debug\04_19_Rows.exe
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(460,5): error MSB8020: Не удается найти средства сборки для Visual Studio 2019 (набор инструментов платформы = "v142"). Чтобы выполнить сборку с использованием средств сборки v142 установите средства сборки Visual Studio 2019.  Кроме того, можно выполнить обновление до текущей версии средств Visual Studio, перейдя в меню "Проект" или щелкнув решение правой кнопкой мыши и выбрав "Обновить решение...".

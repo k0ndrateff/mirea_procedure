@@ -14,12 +14,15 @@ struct Student {
 };
 
 void sortStudents(Student *students, int numStudents) {
-    for (int i = 0; i < numStudents - 1; i++) {
-        for (int j = 0; j < numStudents; j++) {
-            if (students[j].getAverage() < students[j + 1].getAverage())
-                swap(students[j], students[j + 1]);
-        }
-    }
+	for (int i = 0; i < numStudents; i++) {
+		for (int j = 0; j < numStudents - 1; j++) {
+			if (students[j].getAverage() < students[j + 1].getAverage()) {
+				Student temp = students[j];
+				students[j] = students[j + 1];
+				students[j + 1] = temp;
+			}
+		}
+	}
 }
 
 int main()
@@ -34,7 +37,7 @@ int main()
     Student* students = new Student[numStudents];
 
     for (int i = 0; i < numStudents; i++) {
-        cout << "Студент " << i + 1 << endl << "Введите номер зачетной книжки: ";
+        cout << "*---- Студент " << i + 1 << endl << "Введите номер зачетной книжки: ";
         cin >> students[i].id;
         cout << "Введите ФИО: ";
         cin >> surname >> name >> last_name;
