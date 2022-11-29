@@ -16,7 +16,7 @@ int main()
 {
 	setlocale(LC_ALL, "russian");
 
-	int freeSpaces[9];
+	int freeSpaces[9] = {0, 0, 0, 0, 0, 0, 0, 0, 0};
 	int n = 0;
 	int answer = 0;
 	int current = 0;

@@ -33,15 +33,33 @@ bool NextSet(int* a, int n)
     return true;
 }
 
+int factorial(int n) {
+    if (n <= 1)
+        return 1;
+    else
+        return n * factorial(n - 1);
+}
+
 int main()
 {
-    int ans = 0, n = 10, fac = 3628800;
-    int urna[10] = { 0,1,2,3,4,5,6,7,8,9 };
+    setlocale(LC_ALL, "russian");
+    int n;
+
+    cout << "Введите N: ";
+    cin >> n;
+
+    int ans = 0, fac = factorial(n);
+    int *urna = new int[n];
+    for (int i = 0; i < n; i++) {
+        urna[i] = i;
+    }
     for (int i = 0; i < fac; ++i) {
         NextSet(urna, n);
         if (perestanovka(urna, n))
             ans++;
     }
+
+    ans = n % 2 == 0 ? ans + 1 : ans;
     cout << ans << endl;
 
     return 0;
